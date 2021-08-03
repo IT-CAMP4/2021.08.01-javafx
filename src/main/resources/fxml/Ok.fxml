@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.camp.it.controllers.OkController">
+   <children>
+      <Label fx:id="helloLabel" alignment="CENTER" layoutX="151.0" layoutY="73.0" prefHeight="45.0" prefWidth="300.0" text="Label">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="passwordLabel" alignment="CENTER" layoutX="150.0" layoutY="134.0" prefWidth="300.0" text="Label">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="ageLabel" alignment="CENTER" layoutX="150.0" layoutY="191.0" prefWidth="300.0" text="Label">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="233.0" layoutY="277.0" mnemonicParsing="false" onAction="#back" text="Wstecz">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
